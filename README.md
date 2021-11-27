@@ -11,6 +11,7 @@ Demo : https://dice.nebuchadnezzar.dev/
 * git clone https://github.com/hach3/Dice-Casino-Game.git
 * cd Dice-Casino-Game
 * npm i
+* Set your API Key in environment.js
 * node index
 * Visit http://localhost:8080
 
