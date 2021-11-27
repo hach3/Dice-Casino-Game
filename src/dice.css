@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  height:60vh;
+  width: 1140px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+form .form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="submit"] {
+  width: 100%;
+}
+
+.controls {
+  width: 25%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+#results {
+  flex: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  width:75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.number-picker {
+  padding: 0 50px;
+}
+
+.statistics {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.statistics form {
+  display: flex;
+  
+}
+.statistics form .form-element {
+  width: 33%;
+}
+
+#range-number {
+  width: 100%;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}

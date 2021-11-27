@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="http://localhost:8080/">
+    <link rel="stylesheet" href="dice.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <form>
+          <div class="form-element">
+            <label for="amount-bet">Bet amount</label>
+            <input type="number" id="amount-bet" value="0.00"/>
+          </div>
+          
+    
+          <div class="form-element">
+            <label for="amount-profit">Victory benefits</label>
+            <input type="number" id="amount-profit" value="0.00" disabled/>
+          </div>     
+    
+          <div>
+            <input type="submit" value="Bet"/>
+          </div>
+          
+        </form>
+        <p id="total-results"></p>
+        <ul id="results" style="height:20vh;overflow:scroll;">
+        </ul>
+      </div>
+      <div class="board">
+        <div class="number-picker">
+          <input type="range" id="range-number" value="50.50" min="2" max="98" step="0.01">
+        </div>
+        <div class="statistics">
+          <form>
+            <div class="form-element">
+              <label for="multiplier">Multiplier</label>
+              <input type="number" id="multiplier" value="2.0000"/>
+            </div>
+            
+            
+            <div class="form-element">
+              <label for="roll-high">Roll higher than</label>
+              <input type="number" id="roll-high" value="50.50"/>
+            </div>
+            
+    
+            <div class="form-element">
+              <label for="chances">Chances</label>
+              <input type="number" id="chances" value="49.5000"/>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="dice.js"></script>
+  </body>
+</html>
+
