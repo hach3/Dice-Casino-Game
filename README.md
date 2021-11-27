@@ -16,3 +16,4 @@ Dice Casino Game is a project made by Nebuchadnezzar.dev. It uses its API to pro
 
  * NodeJS
  * NPM
+ * API Key from https://nebuchadnezzar.dev
