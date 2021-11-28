@@ -2,9 +2,9 @@
 
 ## About / Synopsis
 
-Dice Casino Game is a project made by Nebuchadnezzar.dev. It uses its API to provide a casino game with a custom RTP
+Dice Casino Game is a project made by embedgaming.com. It uses its API to provide a casino game with a custom RTP
 
-Demo : https://dice.nebuchadnezzar.dev/
+Demo : https://dice.embedgaming.com/
 
 ## Installation
 
@@ -19,4 +19,4 @@ Demo : https://dice.nebuchadnezzar.dev/
 
  * NodeJS
  * NPM
- * API Key from https://nebuchadnezzar.dev
+ * API Key from https://embedgaming.com
