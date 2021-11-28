@@ -1,6 +1,6 @@
 const environment = {
-  urlApi: "https://server.nebuchadnezzar.dev/play",
-  token: "<YOUR TOKEN>", //https://nebuchadnezzar.dev
+  urlApi: "https://server.embedgaming.com/play",
+  token: "<YOUR TOKEN>", //https://embedgaming.com
   rtp: 99
 }
 
