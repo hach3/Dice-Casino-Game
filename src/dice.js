@@ -129,16 +129,16 @@ $(window).on('load', function(){
           total_win += parseFloat(data.result.bet) * parseFloat(data.result.multi)
         }
         var randNumber = data.result.number_random;
-        var hrefGame = urlProvablyFair + data.token;
 
         var li = '';
         li += '<li>';
-        li += ' <a class="' + won + '" href="' + hrefGame + '" target="_blank">';
+        li += ' <a class="' + won + '" href="' + data.url + '" target="_blank">';
         li += '   Rand : ' + randNumber + '  ';
         li +=     sign + data.result.profit.toFixed(2);
         li +=     multi;
         li += ' </a>';
         li += '</li>';
+        
         $('#results').prepend(li);
         $('#total-results').text('Bet : ' + total_bet + '. Won : ' + total_win);
       },
