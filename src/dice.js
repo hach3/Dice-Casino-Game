@@ -1,5 +1,4 @@
 $(window).on('load', function(){
-  var urlApi = "http://localhost:8080";
   var urlProvablyFair = "https://nebuchadnezzar.dev/game/details/";
   var rtp = 99;
   var total_bet = 0;
@@ -97,7 +96,7 @@ $(window).on('load', function(){
   function initRTP() {
     $.ajax({
       type: "GET",
-      url: urlApi + "/rtp",
+      url: "/rtp",
       success: function(data) {
         rtp = data.rtp;
         updateStatistics("range-number");
@@ -111,7 +110,7 @@ $(window).on('load', function(){
   function postGame(game) {
     $.ajax({
       type: "POST",
-      url: urlApi + "/play",
+      url: "/play",
       data: {          
         "number": game.rollHigh,
         "bet": game.betAmount

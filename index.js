@@ -47,7 +47,7 @@ app.post('/play', (req,res) => {
   });
 });
 
-app.listen(8080, () => {
+app.listen(8081, () => {
   console.log("Server ready")
 });
 
