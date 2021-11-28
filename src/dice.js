@@ -1,5 +1,4 @@
 $(window).on('load', function(){
-  var urlProvablyFair = "https://nebuchadnezzar.dev/game/details/";
   var rtp = 99;
   var total_bet = 0;
   var total_win = 0;
@@ -138,7 +137,7 @@ $(window).on('load', function(){
         li +=     multi;
         li += ' </a>';
         li += '</li>';
-        
+
         $('#results').prepend(li);
         $('#total-results').text('Bet : ' + total_bet + '. Won : ' + total_win);
       },
