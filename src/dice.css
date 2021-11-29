@@ -110,3 +110,45 @@ input[type="number"] {
 .statistics form {
   padding: 15px;
 }
+
+/* RANGE */
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #d3d3d3;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 25px; /* Specified height */
+    -webkit-appearance: none;
+    color: #13bba4;
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+     width: 25px; /* Set a specific slider handle width */
+    -webkit-appearance: none;
+    height: 25px; /* Specified height */
+    cursor: ew-resize;
+    background: #434343;
+    box-shadow: -100vw 0 0 100vw  #4CAF50;
+  }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+background-color: #4CAF50; 
+}
+input[type="range"]::-moz-range-track {  
+background-color: #d3d3d3;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+background-color: #4CAF50; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #d3d3d3;
+}    
