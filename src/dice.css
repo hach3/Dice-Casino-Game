@@ -77,3 +77,35 @@ form input[type="submit"] {
 .green {
   color: green;
 }
+
+
+/* DARK THEME - Can be removed */
+
+label {
+  color: #b1bad3;
+}
+input[type="number"] {
+  background: #0f212e;
+  color: #FFF;
+}
+
+.controls {
+  background: #213743;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* color: #b1bad3; */
+}
+.board {
+  background: #0f212e;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.statistics {
+  background: #213743;
+    /* color: #b1bad3; */
+}
+
+.statistics form {
+  padding: 15px;
+}
