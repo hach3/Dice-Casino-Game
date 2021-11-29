@@ -10,6 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: "proxima-nova",sans-serif;
+  font-size: 14px;
 }
 .container {
   display: flex;
