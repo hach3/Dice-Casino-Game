@@ -134,20 +134,20 @@ input[type="number"] {
     height: 25px; /* Specified height */
     cursor: ew-resize;
     background: #434343;
-    box-shadow: -100vw 0 0 100vw  red;
+    box-shadow: -100vw 0 0 100vw  #ff1f44;
   }
 
 }
 /** FF*/
 input[type="range"]::-moz-range-progress {
-background-color: red; 
+background-color: #ff1f44; 
 }
 input[type="range"]::-moz-range-track {  
 background-color: #4CAF50;
 }
 /* IE*/
 input[type="range"]::-ms-fill-lower {
-background-color: red; 
+background-color: #ff1f44; 
 }
 input[type="range"]::-ms-fill-upper {  
 background-color: #4CAF50;
