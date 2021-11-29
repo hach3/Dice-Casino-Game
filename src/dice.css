@@ -31,6 +31,10 @@ form .form-element {
 
 form input[type="submit"] {
   width: 100%;
+  background: #1fff20;
+  border-color: #1fff20;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 .controls {
