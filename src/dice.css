@@ -118,7 +118,7 @@ input[type="number"] {
     overflow: hidden;
     width: 100%;
     -webkit-appearance: none;
-    background-color: #d3d3d3;
+    background-color: #4CAF50;
   }
   
   input[type='range']::-webkit-slider-runnable-track {
@@ -134,21 +134,21 @@ input[type="number"] {
     height: 25px; /* Specified height */
     cursor: ew-resize;
     background: #434343;
-    box-shadow: -100vw 0 0 100vw  #4CAF50;
+    box-shadow: -100vw 0 0 100vw  red;
   }
 
 }
 /** FF*/
 input[type="range"]::-moz-range-progress {
-background-color: #4CAF50; 
+background-color: red; 
 }
 input[type="range"]::-moz-range-track {  
-background-color: #d3d3d3;
+background-color: #4CAF50;
 }
 /* IE*/
 input[type="range"]::-ms-fill-lower {
-background-color: #4CAF50; 
+background-color: red; 
 }
 input[type="range"]::-ms-fill-upper {  
-background-color: #d3d3d3;
+background-color: #4CAF50;
 }    
