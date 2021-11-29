@@ -165,8 +165,12 @@ $(window).on('load', function(){
       return false;
     }
     rollHigh = parseFloat(rollHigh);
-    if(rollHigh < 2 || rollHigh > 98) {
-      alert('Invalid % amount');
+    if(rollHigh < 2) {
+      alert('Minimum number: 2');
+      return false;
+    }
+    else if(rollHigh > 98) {
+      alert('Maximum number: 98');
       return false;
     }
     return {rollHigh, betAmount};
