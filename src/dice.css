@@ -118,7 +118,7 @@ input[type="number"] {
     overflow: hidden;
     width: 100%;
     -webkit-appearance: none;
-    background-color: #4CAF50;
+    background-color: #1fff20;
   }
   
   input[type='range']::-webkit-slider-runnable-track {
@@ -143,14 +143,14 @@ input[type="range"]::-moz-range-progress {
 background-color: #ff1f44; 
 }
 input[type="range"]::-moz-range-track {  
-background-color: #4CAF50;
+background-color: #1fff20;
 }
 /* IE*/
 input[type="range"]::-ms-fill-lower {
 background-color: #ff1f44; 
 }
 input[type="range"]::-ms-fill-upper {  
-background-color: #4CAF50;
+background-color: #1fff20;
 }    
 
 
