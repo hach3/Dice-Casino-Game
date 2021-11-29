@@ -93,7 +93,7 @@ input[type="number"] {
   background: #213743;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  /* color: #b1bad3; */
+  color: #b1bad3;
 }
 .board {
   background: #0f212e;
@@ -104,7 +104,7 @@ input[type="number"] {
 .statistics {
   background: #213743;
   border-bottom-right-radius: 15px;
-    /* color: #b1bad3; */
+  color: #b1bad3;
 }
 
 .statistics form {
