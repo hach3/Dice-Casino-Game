@@ -125,7 +125,7 @@ $(window).on('load', function(){
           won = "green";
           sign = "+";
           multi = " x" + parseFloat(data.result.multi).toFixed(2);
-          total_win += parseFloat(data.result.bet) * parseFloat(data.result.multi)
+          total_win += parseFloat(data.result.total)
         }
         var randNumber = data.result.number_random;
 
@@ -133,7 +133,7 @@ $(window).on('load', function(){
         li += '<li>';
         li += ' <a class="' + won + '" href="' + data.url + '" target="_blank">';
         li += '   Rand : ' + randNumber + '  ';
-        li +=     sign + data.result.profit.toFixed(2);
+        li +=     sign + data.result.total.toFixed(2);
         li +=     multi;
         li += ' </a>';
         li += '</li>';

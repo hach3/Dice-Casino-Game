@@ -182,3 +182,6 @@ background-color: #1fff20;
   margin: 0 0 20px 0;
   color:#FFF;
 }
+input[type="submit"]{
+  cursor:pointer;
+}

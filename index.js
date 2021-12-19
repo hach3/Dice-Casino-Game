@@ -34,10 +34,17 @@ app.get('/rtp', (req,res) => {
 app.post('/play', (req,res) => {
   postReq(environment.urlApi, {
     "id": "dice",
-    "token": environment.token,
-    "rtp": environment.rtp/100,    
-    "number": parseFloat(req.body.number),    
-    "bet": parseFloat(req.body.bet)
+    "authorization": environment.token,
+    "params" : {
+      "rtp": environment.rtp/100,    
+    },
+    "bets": [
+      {
+        "amount": parseFloat(req.body.bet),
+        "type": "default",
+        "value": parseFloat(req.body.number)
+      }
+    ]
   }).then(function(respGame) {  
     res.status(respGame.status).json(respGame.data);
   })
