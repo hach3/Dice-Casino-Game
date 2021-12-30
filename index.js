@@ -54,8 +54,8 @@ app.post('/play', (req,res) => {
   });
 });
 
-app.listen(8081, () => {
-  console.log("Server ready")
+app.listen(environment.port, () => {
+  console.log("Server started on port " + environment.port + ". Visit http://localhost:" + environment.port);
 });
 
 /* Post request handler */

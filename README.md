@@ -13,7 +13,7 @@ Demo : https://dice.embedgaming.com/
 * npm i
 * Set your API Key in environment.js
 * node index
-* Visit http://localhost:8080
+* Visit http://localhost:8081
 
 ### Requirements
 
